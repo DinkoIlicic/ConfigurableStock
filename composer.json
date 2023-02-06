@@ -1,0 +1,25 @@
+{
+    "name": "dinko/module-configurable-stock",
+    "description": "Module For Showing Stock For Selected Simple Products on Configurable PDP",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.1.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*",
+        "magento/module-configurable-product": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Dinko\\ConfigurableStock\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Dinko",
+            "email": "ilicicdinko@gmail.com",
+            "role": "Developer"
+        }
+    ]
+}
